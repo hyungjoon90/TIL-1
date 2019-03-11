@@ -10,7 +10,7 @@ Enterprise Architecture(엔터프라이즈 아키텍처) : 기업이나 큰 조�
 
 구글에 엔터프라이즈 아키텍처 C# 이라고 치면 이미지가 나옴.
 
-# 클래스 라이브러리 종류
+#### 클래스 라이브러리 종류
 1) .net Framework
 2) .net Core
 3) .net Framework(Portable) - Xamarln
