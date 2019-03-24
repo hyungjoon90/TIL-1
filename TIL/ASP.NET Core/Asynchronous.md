@@ -1,4 +1,4 @@
-### 비동기
+### C#의 3가지 비동기 방식
 ---
 ```
 async Task SomethingAsync() { ... return t; }

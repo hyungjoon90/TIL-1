@@ -34,6 +34,7 @@ description 을 적고 옵션으로 밑에 세세한 내용을 적는다.
 
 ---
 #### 참고
+
 https://www.conventionalcommits.org/en/v1.0.0-beta.2/
 
 http://karma-runner.github.io/0.10/dev/git-commit-msg.html

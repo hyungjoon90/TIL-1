@@ -1,5 +1,6 @@
-### Bulk
+### Entity FrameWork 대량 Insert/Update
 ---
+
 서비스를 개발하다 보면 특정 조건을 만족하는 여러개의 로우에 업데이트를 하거나, 여러개의 로우를 추가하거나 삭제하는 것이 필요할 때가 있다.
 
 AccountCarState Table
@@ -52,4 +53,5 @@ AccountCarState 에서 Where 에 해당하는 조건을 가진 시퀸스를 n �
 
 ---
 #### 참고
+
 https://www.seguetech.com/performing-bulk-updatesentity-framework-6-1/

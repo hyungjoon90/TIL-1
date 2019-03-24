@@ -1,3 +1,6 @@
+### ASP.NET Core Identity
+---
+
 자바진영에는 Spring Security 
 .NET 진영에는 ASP.NET Identity(Security)
 - 사용자 로그인(인증)
@@ -67,3 +70,8 @@ Age 20
 
 6. dbo.AspNetUserLogins => 외부 로그인 Oauth1.0/2.0
 페이스북로그인, 네이버로그인 등.
+
+---
+#### 참고
+
+개발토끼님 강좌

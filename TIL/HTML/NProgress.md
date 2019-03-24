@@ -1,3 +1,6 @@
+# NProgress 로딩바 설정 관련 및 Ajax 전역 이벤트 적용
+---
+
 ```
     NProgress.configure({ showSpinner: false });
     NProgress.start();
@@ -34,6 +37,9 @@
       NProgress.done();
     });
 ```
+
+---
+#### 참고
 
 글로벌 ajax 옵션
 
