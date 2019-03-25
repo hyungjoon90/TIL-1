@@ -14,6 +14,8 @@
 - [Entity Framework](#entityframework)
 - [Kafka](#kafka)
 - [React](#react)
+- [Git](#git)
+- [HTML](#html)
 - [Daily](#daily)
 
 ---
@@ -25,12 +27,17 @@
 - []()
 - []()
 - []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
 
 <a name="entityframework">
 
 ### `Entity Framework`
 
-- []()
 - []()
 - []()
 
@@ -39,8 +46,6 @@
 ### `Kafka`
 
 - []()
-- []()
-- []()
 
 <a name="react">
 
@@ -48,6 +53,18 @@
 
 - []()
 - []()
+
+<a name="git">
+
+### `Git`
+
+- []()
+- []()
+
+<a name="html">
+
+### `HTML`
+
 - []()
 
 <a name="daily">
