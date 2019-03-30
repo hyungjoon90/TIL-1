@@ -1,4 +1,4 @@
-# push 된 git commit message 수정
+# Push 된 Git Commit Message 수정
 ---
 
 ```git commit --amend -m "메세지 수정"```

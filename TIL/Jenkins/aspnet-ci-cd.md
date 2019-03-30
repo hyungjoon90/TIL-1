@@ -1,4 +1,4 @@
-### Jenkins 에서 ASP.NET MVC CI/CD 구축
+### Jenkins 로 ASP.NET MVC CI/CD
 ---
 
 #### Git 연결
