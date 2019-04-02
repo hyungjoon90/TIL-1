@@ -1,0 +1,36 @@
+### .NET SignalR 2
+---
+
+SignalR을 자체호스트로 구현해서 실행할 수 있는데,
+
+IIS 서버의 부하를 피하기 위해서 자체호스트가 필요할 수 있음.
+윈도우서비스나 애저작업자역활에 SignalR을 추가 가능.
+
+MSDN에서는 성능상을 이유로 솔루션을 자체-호스트 방식으로 개발하고 있다면,
+응용 프로그램을 IIS에 호스트한 상태에서도 테스트를 수행해서 성능상의 이점을 직접 확인해보는 것이 좋다고 한다.
+
+서버 구현시 필요판 패키지들
+Install-Package Microsoft.AspNet.SignalR.SelfHost
+Install-Package Microsoft.Owin.Cors
+
+클라이언트에서 자바스크립트로 서버에 접근할 때 필요한 패키지
+Install-Package Microsoft.AspNet.SignalR.JS
+
+### .NET Core 2.2 SignalR
+.NET Core 의 signalR은 구현이 매우 쉬움.
+
+닷넷코어의 경우, 클라이언트는 클라리언트 쪽 라이브러리 추가 대화상자에서 공급자 unpkg를 선택한 후에,
+@aspnet/signalr@ 를 입력해서 최신버전을 선택하면 된다. Asp.net Core 2.2 에 SignalR이 포함되어 있다.
+
+#### SignalR 을 가진 앱이 로드밸런서 구현될 때, 자체호스팅을 통해서 서버가 여러개더라도 자체호스팅을 하는 SignalR 의 Url을 이용해서 사용할 수 있도록 할 수 있다. 
+[SignalR 자체 호스팅](https://docs.microsoft.com/ko-kr/aspnet/signalr/overview/deployment/tutorial-signalr-self-host)
+
+### SignalR 스케일 아웃
+
+[Azure Service Bus로 SignalR 규모 확장](https://docs.microsoft.com/ko-kr/aspnet/signalr/overview/performance/scaleout-with-windows-azure-service-bus)
+
+[Redis로 SignalR 규모 확장](https://docs.microsoft.com/ko-kr/aspnet/signalr/overview/performance/scaleout-with-redis)
+
+[SQL Server로 SignalR 규모 확장](https://docs.microsoft.com/ko-kr/aspnet/signalr/overview/performance/scaleout-with-sql-server)
+
+
