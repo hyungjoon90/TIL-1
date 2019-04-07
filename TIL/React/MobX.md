@@ -1,5 +1,4 @@
-### MobX
----
+# MobX
 
 ```
 yarn add mobx mobx-react

@@ -1,5 +1,4 @@
-### Entity FrameWork 대량 Insert/Update
----
+# Entity FrameWork 대량 Insert/Update
 
 서비스를 개발하다 보면 특정 조건을 만족하는 여러개의 로우에 업데이트를 하거나, 여러개의 로우를 추가하거나 삭제하는 것이 필요할 때가 있다.
 

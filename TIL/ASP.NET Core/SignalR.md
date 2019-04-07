@@ -1,5 +1,4 @@
-### .NET SignalR 2
----
+# .NET SignalR 2
 
 SignalR을 자체호스트로 구현해서 실행할 수 있는데,
 

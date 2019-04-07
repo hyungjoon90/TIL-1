@@ -2,13 +2,11 @@
  1. 개발자는 꾸준히 공부해야 한다!
  2. 공부하면서 배운점들과 자료들을 기록한다.
 
----
 ### 참고한 TIL
  - [thoughtbot 의 TIL](https://github.com/thoughtbot/til)
  - [milooy 님의 TIL](https://github.com/milooy/TIL)
  - [Integerous 님의 TIL](https://github.com/Integerous/TIL)
 
----
 ### 목차
 - [ASP.NET Core](#aspnetcore)
 - [C#](#csharp)
@@ -19,8 +17,6 @@
 - [React](#react)
 - [Git](#git)
 - [HTML](#html)
-
----
 
 <a name="aspnetcore">
 

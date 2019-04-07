@@ -1,5 +1,4 @@
-### ASP.NET Core Identity
----
+# ASP.NET Core Identity
 
 자바진영에는 Spring Security 
 .NET 진영에는 ASP.NET Identity(Security)
