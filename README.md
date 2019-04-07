@@ -51,7 +51,7 @@
 
 - [ASP.NET MVC 및 Windows Service 배포](https://github.com/JHyeok/TIL/blob/master/TIL/IIS/deploy-dotnet-windows-service.md)
 
-<a name="kafka">s
+<a name="kafka">
 
 ### `Kafka`
 
