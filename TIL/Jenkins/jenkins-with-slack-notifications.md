@@ -18,6 +18,8 @@ https://myspace.slack.com/services/new/jenkins-ci
 BaseURL만 넣어주고 Token만 넣어주면 끝이다.
 그 이후에는 각 Job 구성에서 빌드 후 조치에서 Slack Notifications 을 선택해서 원하는 알람유형에 체크를 하면 된다.
 
+나는 Build Start 와 Build Success 보다는 오류가 생겼을 때, 알람이 효율적인 것 같아서 해당 유형들만 체크하였다.
+
 ---
 #### 참고
 https://medium.com/appgambit/integrating-jenkins-with-slack-notifications-4f14d1ce9c7a
