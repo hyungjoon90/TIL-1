@@ -42,8 +42,8 @@
 
 ### `C#`
 
-- [C#의 3가지 비동기 방식](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/Asynchronous.md)
-- [Thread](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/Thread.md)
+- [C#의 3가지 비동기 방식](https://github.com/JHyeok/TIL/blob/master/TIL/CSharp/Asynchronous.md)
+- [Thread](https://github.com/JHyeok/TIL/blob/master/TIL/CSharp/Thread.md)
 
 <a name="entityframework">
 
