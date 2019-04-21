@@ -24,11 +24,11 @@
 ### `ASP.NET Core`
 
 - [의존성주입과 제어의 반전](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/DI-and-IOC.md)
-- [Enterprise Architecture](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/EnterpriseArchitecture.md)
+- [Enterprise Architecture](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/enterprise-architecture.md)
 - [ASP.NET Core Identity](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/Identity.md)
 - [.NET Core 성능](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/net-core-performance.md)
 - [Visual Studio Code 풀스택 개발하기](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/vscode-fullstack-dotent.md)
-- [SP에 사용이 올바른가?](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/why-use-SP.md)
+- [SP에 사용이 올바른가?](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/why-use-stored-prodecure.md)
 - [Etc](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/Etc.md)
 - [SignalR](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/SignalR.md)
 
@@ -49,7 +49,7 @@
 
 ### `Entity Framework`
 
-- [Entity FrameWork 대량 Insert/Update](https://github.com/JHyeok/TIL/blob/master/TIL/Entity%20Framework/Bulk.md)
+- [Entity FrameWork 대량 Insert/Update](https://github.com/JHyeok/TIL/blob/master/TIL/Entity%20Framework/bulk-insert-update.md)
 - [CodeFirst](https://github.com/JHyeok/TIL/blob/master/TIL/Entity%20Framework/CodeFirst.md)
 
 <a name="iis">
