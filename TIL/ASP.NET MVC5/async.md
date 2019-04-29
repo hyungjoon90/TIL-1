@@ -35,14 +35,6 @@ var task2 = await DoMoreWorkAsync();
 
 https://msdn.microsoft.com/en-us/magazine/dn802603.aspx
 
-https://stackoverflow.com/questions/17197699/awaiting-multiple-tasks-with-different-results
-
-https://stackoverflow.com/questions/32119507/multiple-awaits-vs-task-waitall-equivalent/32119728
+https://nsinc.tistory.com/110
 
 https://docs.microsoft.com/ko-kr/aspnet/mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4
-
-https://stackoverflow.com/questions/6123406/waitall-vs-whenall
-
-https://softwareengineering.stackexchange.com/questions/339540/calling-multiple-async-services-in-parallel
-
-https://stackoverflow.com/questions/25009437/running-multiple-async-tasks-and-waiting-for-them-all-to-complete
