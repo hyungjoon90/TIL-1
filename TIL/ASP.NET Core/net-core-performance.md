@@ -1,4 +1,4 @@
-# .Net Core 성능
+# .NET Core 성능
 
 온라인과 오프라인상에서 .NET 이 느리다고 .NET Core가 느리다고 생각하시는 분들을 많이 보았다.
 
@@ -14,3 +14,6 @@ Node.js 에서 .NET Core 1 으로 전환 후 생긴 효과
 
 웹 프레임워크 벤치마크 사이트
 - https://www.techempower.com/benchmarks/
+
+ASP.NET Core 2.2/3.0 성능
+- https://www.ageofascent.com/2019/02/04/asp-net-core-saturating-10gbe-at-7-million-requests-per-second/
