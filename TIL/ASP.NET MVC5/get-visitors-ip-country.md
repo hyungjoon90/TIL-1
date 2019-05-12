@@ -1,13 +1,13 @@
 # 사이트 방문자의 IP 와 Country 가져오기
 
-geoip 를 nuget 패키지 관리자에서 설치한 이후에, mmdb도 넣어주어야 한다.
+geoip를 Nuget 패키지 관리자에서 설치한 이후에, mmdb도 넣어주어야 한다.
 
-패키지 관리자에서 검색시 maxmind 라고 검색해서
+패키지 관리자에서 검색 시 maxmind 라고 검색해서
 maxmind.db 와 maxmind.geoip2 두개를 설치해주어야 한다.
 
 mmdb는 https://dev.maxmind.com/geoip/geoip2/geolite2/
 
-여기서 다운로드 받는데, country 와 city 중에 필요에 맞게 설치해서 한다.
+여기서 다운로드받는데, country와 city 중에 필요에 맞게 설치해서 한다.
 
 ```
     public string GetVisitorsIP()
