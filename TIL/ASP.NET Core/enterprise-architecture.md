@@ -15,9 +15,7 @@
 3) .net Framework(Portable) - Xamarln
 4) .net Standard
 
-
-엔터프라이즈 아키텍처에서
-각 Tier 별로 접근순서
+엔터프라이즈 아키텍처에서 각 Tier 별로 접근순서
 
 클라이언트 버튼 -> ASP.NET MVC 리스트 출력 호출 -> BLL을 통해서 호출
 -> BLL에서 호출한게 IDAL로 가게됨 -> IDAL이 DAL로 가서 데이터를 조회를 하고 ->
