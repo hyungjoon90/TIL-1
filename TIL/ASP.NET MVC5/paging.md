@@ -81,7 +81,7 @@ public class PagingModel<T>
 }
 ```
 
-페이지네이션 디자인이 바뀌더라도 여기서 수정하면 되서 오픈소스를 이용하는 것보다 더 빠르게 능동적으로 대처할 수 있는 것 같다.
+페이지네이션 디자인이 바뀌더라도 여기서 수정하면 되기 때문에 오픈소스를 이용하는 것보다 더 빠르게 능동적으로 대처할 수 있는 것 같다.
 
 ```
 @if (Model.TotalCount != 0)
@@ -89,7 +89,7 @@ public class PagingModel<T>
   @Html.Raw(Model.PaginationString())
 }
 ```
-cshtml에서는 리스트의 개수가 0개가 아닐때, Pagination이 보이도록 한다.
+cshtml에서는 리스트의 개수가 0개가 아닐 때, Pagination이 보이도록 한다.
 
 ```
 [AjaxOnly]
