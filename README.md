@@ -78,6 +78,7 @@
 
 ### `React`
 
+- [React에서 State와 Props](https://github.com/JHyeok/TIL/blob/master/TIL/React/state-and-props.md)
 - [MobX](https://github.com/JHyeok/TIL/blob/master/TIL/React/MobX.md)
 - [React-app-rewired](https://github.com/JHyeok/TIL/blob/master/TIL/React/React-app-rewired.md)
 
