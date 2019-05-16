@@ -31,4 +31,4 @@ https://codeday.me/ko/qa/20190502/439020.html
 
 https://docs.microsoft.com/ko-kr/ef/ef6/fundamentals/performance/perf-whitepaper
 
-https://m.blog.naver.com/PostView.nhn?blogId=monkeychoi&logNo=220664056827&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+https://galleryserverpro.com/eliminate-startup-delay-in-your-galleries-using-application-initialization/
