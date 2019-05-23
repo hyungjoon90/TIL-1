@@ -2,7 +2,7 @@
 
 페이징을 오픈소스를 이용해도 되지만 원리를 이해하면 간단하기 때문에 직접 만들어서 사용하는 것을 추천한다.
 
-```
+```csharp
 public class PagingModel<T>
 {
     public IEnumerable<T> Source { get; set; }
@@ -91,7 +91,7 @@ public class PagingModel<T>
 ```
 cshtml에서는 리스트의 개수가 0개가 아닐 때, Pagination이 보이도록 한다.
 
-```
+```csharp
 [AjaxOnly]
 public async Task<PartialViewResult> Pv_GetArticleList(ArticleSearchDto articleSearchDto)
 {
@@ -101,7 +101,7 @@ public async Task<PartialViewResult> Pv_GetArticleList(ArticleSearchDto articleS
 }
 ```
 
-```
+```csharp
 query = query.AsNoTracking().OrderByDescending(x => x.CreateDate);
 int total = await query.CountAsync();
 int start = (articleSearchDto.Page - 1) * articleSearchDto.PageSize;
@@ -119,3 +119,27 @@ return data;
 ```
 
 컨트롤러단과 서비스단이다.
+
+페이지 디자인은 만들어졌지만 클릭하면 아무런 동작을 하지 않습니다.
+페이지를 클릭했을 때, a링크를 넣는 경우 괜찮지만 그게 아닌 경우는 javascript 또는 jquery로 이벤트를 등록해주어야 합니다.
+
+```javascript
+$pageRoot.on('click', '#pager_list [data-page-value]', function () {
+    var pVal = $(this).data('page-value');
+    if (pVal > 0)
+        page = pVal;
+    else if (pVal === -1)
+        page = 1;
+    else if (pVal === -2) {
+        if (page < 2)
+            return false;
+        page = page - 1;
+    }
+    else {
+        if (totalPage <= page)
+            return false;
+        page = page + 1;
+    }
+    getPageList(); // ajax로 페이지 리스트를 호출하는 메서드
+});
+```
