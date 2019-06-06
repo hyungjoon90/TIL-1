@@ -32,6 +32,7 @@
 - [SP에 사용이 올바른가?](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/why-use-stored-prodecure.md)
 - [Etc](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/Etc.md)
 - [SignalR](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/SignalR.md)
+- [.NET Core InProcess와 OutOfProcess](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/deploy.md)
 
 <a name="aspnetmvc5">
 
