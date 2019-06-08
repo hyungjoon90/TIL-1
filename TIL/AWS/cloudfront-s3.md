@@ -4,9 +4,9 @@ CloudFront를 사용하는데 S3에 새롭게 객체를 업로드 하여도 이�
 
 이를 해결하려면 객체의 버전을 관리하거나, S3객체를 무효화 해야 합니다.
 
-객체의 버전을 관리하는 방법은 ?v=1, ?ver=2, ?v=hash 이런식으로 파일의 이름을 다르게 하면 새로운 객체이기 때문에 뒤에 버전을 붙여서 관리합니다.
+객체의 버전을 관리하는 방법은 ?v=1, ?ver=2, ?v=hash 이런 식으로 파일의 이름을 다르게 하면 새로운 객체이기 때문에 뒤에 버전을 붙여서 관리합니다.
 
-S3객체를 무효화하는 방법입니다. 아마존에서 aws cli를 설치
+S3객체를 무효로 하는 방법입니다. 아마존에서 aws cli를 설치
 
 실행 후 aws --version
 
@@ -41,7 +41,7 @@ aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID--paths
 
 ### 파일무효화 결과값 요청
 
-aws cloudfront get-invalidation --distribution-id ${CDN_DISTRIBUTION_ID} --id ${결과ID}
+aws cloudfront get-invalidation --distribution-id ${CDN_DISTRIBUTION_ID} --id ${결과 ID}
 
 ---
 #### 참고
