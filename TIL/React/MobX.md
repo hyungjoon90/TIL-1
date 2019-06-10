@@ -15,18 +15,18 @@ yarn add @babel/plugin-proposal-class-properties @babel/plugin-proposal-decorato
   }
 ```
 
-중요! : 위의 바벨 설정을 하려면 yarn eject를 해야한다. 그렇지 않으면 오류가 난다.
+중요! : 위의 바벨 설정을 하려면 yarn eject를 해야 한다. 그렇지 않으면 오류가 난다.
 
 데코레이터 적용시 오류가 난다면,
 
-수정한 내용들을 commit 한 이후에, yarn eject !
+수정한 내용을 commit 한 이후에, yarn eject !
 
-yarn eject 를 하고 나면 package.json 파일이 풀어져서
+yarn eject를 하고 나면 package.json 파일이 풀어져서
 
 그 후에 바벨 옵션을 바꿔주고 추가로 플러그인을 설치하면 decorator 적용 가능
 
-빌드는 되는데 vs code에서 빨간줄 뜨는 부분은
-vs code 에서 File-Preferences들어가서 experimentalDecorators 체크해주면 해결됨.
+빌드는 되는데 vs code에서 빨간 줄 뜨는 부분은
+vs code에서 File-Preferences들어가서 experimental Decorators 체크해주면 해결됨.
 
 ---
 
@@ -35,7 +35,7 @@ vs code 에서 File-Preferences들어가서 experimentalDecorators 체크해주�
 필수적인 것은 아니지만 있으면 우리가 어떤 값을 바꿧을 때, 어떠한 컴포넌들이 영향을 받고
 업데이트는 얼마나 걸리고, 어떠한 변화가 일어났ㄴㄴ지에 대한 세부적인 정보를 볼 수 있게 해줌.
 
-설치를 한 다음 App.js 에 적용
+설치한 다음 App.js 에 적용
 ```
 import DevTools from 'mobx-react-devtools';
 {process.env.NODE_ENV === 'development' && <DevTools />}
