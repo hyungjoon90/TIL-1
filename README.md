@@ -75,7 +75,7 @@
 
 ### `Jenkins`
 
-- [Jenkins 로 ASP.NET MVC CI/CD](https://github.com/JHyeok/TIL/blob/master/TIL/Jenkins/aspnet-ci-cd.md)
+- [Jenkins와 MSBuild를 이용한 ASP.NET MVC CI/CD](https://github.com/JHyeok/TIL/blob/master/TIL/Jenkins/aspnet-ci-cd.md)
 
 <a name="react">
 

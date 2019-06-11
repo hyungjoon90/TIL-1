@@ -1,4 +1,4 @@
-# Jenkins 로 ASP.NET MVC CI/CD
+# Jenkins와 MSBuild를 이용한 ASP.NET MVC CI/CD
 
 #### Git 연결
 
