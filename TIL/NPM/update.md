@@ -1,10 +1,10 @@
 # npm update
 
-npm update를 입력하면 설치된 의존성 모듈들을 전부 업데이트 한다.
+npm update를 입력하면 설치된 의존성 모듈들을 전부 업데이트한다.
 
 ```npm update gatsby```
 
-특정한 모듈만 업데이트를 하려면 위처럼 npm update 모듈명
+특정한 모듈만 업데이트하려면 위처럼 npm update 모듈명
 
 ```npm outdated```
 
