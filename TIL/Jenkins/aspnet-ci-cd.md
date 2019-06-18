@@ -27,6 +27,8 @@ git pull 하면서 전부 가져오기 때문이다.
 /p:PublishProfile=Default-profile
 /p:AllowUntrustedCertificate=true
 /p:Password=${PASSWORD_1}
+/p:PrecompileBeforePublish=true
+/p:EnableUpdateable=true 
 /p:Configuration=Release
 ```
 
