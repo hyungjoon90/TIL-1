@@ -34,6 +34,7 @@
 - [Etc](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/Etc.md)
 - [SignalR](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/SignalR.md)
 - [.NET Core InProcess와 OutOfProcess](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/deploy.md)
+- [ASP.NET Core 클레임 기반 로그인 구현](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/claims-login.md)
 
 <a name="aspnetmvc5">
 
