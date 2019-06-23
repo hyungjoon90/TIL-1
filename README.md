@@ -20,6 +20,7 @@
 - [AWS](#aws)
 - [NPM](#npm)
 - [HTML](#html)
+- [ETC](#etc)
 
 <a name="aspnetcore">
 
@@ -30,7 +31,6 @@
 - [ASP.NET Core Identity](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/Identity.md)
 - [.NET Core 성능](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/net-core-performance.md)
 - [Visual Studio Code 풀스택 개발하기](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/vscode-fullstack-dotent.md)
-- [SP에 사용이 올바른가?](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/why-use-stored-prodecure.md)
 - [Etc](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/Etc.md)
 - [SignalR](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/SignalR.md)
 - [.NET Core InProcess와 OutOfProcess](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/deploy.md)
@@ -116,5 +116,10 @@
 
 - [NProgress 로딩바 설정 관련 및 Ajax 전역 이벤트 적용](https://github.com/JHyeok/TIL/blob/master/TIL/HTML/NProgress.md)
 
+<a name="etc">
+
+### `ETC`
+
+- [SP에 사용이 올바른가?](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/why-use-stored-prodecure.md)
 
 
