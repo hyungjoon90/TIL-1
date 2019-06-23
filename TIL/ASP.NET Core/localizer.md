@@ -189,7 +189,6 @@ namespace Sample.Language
 }
 ```
 
-
 IHtmlLocalizerFactory 는 View단에서 지역화를 할 때 필요하다. Microsoft.AspNetCore.Mvc.Localization를 참조하고 있다.
 IStringLocalizerFactory 는 View단 이외에서 지역화를 할 때 필요한데, Microsoft.Extensions.Localization를 참조하고 있다.
 
@@ -221,10 +220,12 @@ app.UseRequestLocalization(new RequestLocalizationOptions
     SupportedUICultures = supportedCultures
 });
 ```
+
 Startup.cs의 Configure에서 요청 파이프 라인 구성은 위처럼 추가해준다.
 
 Language 네임스페이스 프로젝트 파일 구성은 아래와 같다.
 
+```
 Sample.Language
 ├─ SampleHtmlLocalizer.cs
 ├─ SampleHtmlLocalizerFactory.cs
@@ -233,12 +234,14 @@ Sample.Language
 └─ Resource.en.resx
 └─ Resource.ko.resx
 └─ Resource.resx
-
+```
 DataAnnotations 지역화를 사용하기 위해서는
 Model이나 ViewModel에서 사용하는 방법이다.
+
 ```csharp
 [Required(ErrorMessage = "{0}을(를) 입력해 주세요.")]
 ```
+
 {0}을(를) 입력해 주세요. 가 리소스 파일에 번역되어 있다면 된다.
 
 컨트롤러단에서는 아래와 같이 사용한다.
@@ -255,13 +258,15 @@ ModelState.AddModelError(string.Empty, _localizer["사용자 ID 혹은 비밀번
 ```
 
 View단에서는 아래처럼 사용한다.
+
 ```csharp
 @inject Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer htmlLocalizer;
 <p>@htmlLocalizer["안녕"]</p>
 ```
 
 이제 언어를 변경하는 리스트를 만들때에는 아래와 같이 만들면 된다.
-```
+
+```csharp
 @using Microsoft.AspNetCore.Localization
 
 @inject Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer htmlLocalizer;
@@ -299,7 +304,7 @@ View단에서는 아래처럼 사용한다.
 }
 ```
 
-```
+```csharp
 [HttpPost]
 [AllowAnonymous]
 public IActionResult SetLanguage(string culture, string returnUrl)
