@@ -120,6 +120,6 @@
 
 ### `ETC`
 
-- [SP에 사용이 올바른가?](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/why-use-stored-prodecure.md)
+- [SP에 사용이 올바른가?](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/why-use-stored-prodecure.md)
 
 
