@@ -120,6 +120,6 @@
 
 ### `ETC`
 
-- [SP에 사용이 올바른가?](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/why-use-stored-prodecure.md)
+- [올바른 저장 프로시저의 사용법](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/why-use-stored-prodecure.md)
 
 
