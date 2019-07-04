@@ -37,6 +37,7 @@
 - [ASP.NET Core 클레임 기반 로그인 구현](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/claims-login.md)
 - [ASP.NET Core 다국어(세계화 및 지역화)](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/localizer.md)
 - [ASP.NET Core NLog, Sentry 적용](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/nlog-sentry.md)
+- [ASP.NET Core 프론트엔드와 백엔드에서의 간단한 유효성 검사](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20Core/validate.md)
 
 <a name="aspnetmvc5">
 
