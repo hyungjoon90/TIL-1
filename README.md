@@ -127,5 +127,6 @@
 ### `ETC`
 
 - [올바른 저장 프로시저의 사용법](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/why-use-stored-prodecure.md)
+- [DataBase별 데이터 선언 차이](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/database-varchar.md)
 
 
