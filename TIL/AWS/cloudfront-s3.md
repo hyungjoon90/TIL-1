@@ -8,7 +8,7 @@ CloudFront를 사용하는데 S3에 새롭게 객체를 업로드 하여도 이�
 
 S3객체를 무효로 하는 방법입니다. 아마존에서 aws cli를 설치
 
-실행 후 aws --version
+실행 후 ```aws --version```
 
 설치가 잘되어있는지 확인합니다.
 
@@ -16,7 +16,7 @@ aws s3에 엑세스하기 위해서 아래의 명령어 입력합니다.
 
 ### s3에 엑세스하기 위한 정보 등록
 
-aws configure
+```aws configure```
 
 입력해서 엑세스키와 시크릿엑세스키 입력, 리전 ap-northeast-2 를 입력한다.
 그리고 마지막 format은 입력하지 않고 그냥 넘어간다.
@@ -25,23 +25,27 @@ aws configure
 
 ### 내 계정의 버킷 리스트
 
-aws s3 ls
+```aws s3 ls```
 
 ### 내 버킷 내 파일 리스트
 
-aws s3 ls s3://mybucket/
+```aws s3 ls s3://mybucket/```
 
 ### 등록한 AWS Access Key ID와 Secret Access Key 확인
 
-aws configure list
+```aws configure list```
 
-### 파일무효화
+### 캐시무효화(ex : main.css 파일)
 
-aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID--paths "/live/cdn/Web/Libs/main.css"
+```aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID--paths "/live/cdn/css/main.css"```
 
-### 파일무효화 결과값 요청
+### 캐시무효화(ex : css 폴더)
 
-aws cloudfront get-invalidation --distribution-id ${CDN_DISTRIBUTION_ID} --id ${결과 ID}
+```aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID--paths "/live/cdn/css/*"```
+
+### 캐시무효화 결과값 요청
+
+```aws cloudfront get-invalidation --distribution-id ${CDN_DISTRIBUTION_ID} --id ${결과 ID}```
 
 ---
 #### 참고
