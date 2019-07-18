@@ -182,3 +182,13 @@ if (!ModelState.IsValid)
     </script>
 }
 ```
+
+부트스트랩 모달에서 모델에 선언한 어노테이션이 되지 않아서 클라이언트단에서 유효성 검사가 되지 않을 때가 있는데 그럴땐 자바스크립트를 이용합니다.
+
+```javascript
+var initValidate = function () {
+    $('form#articleSubmitForm').removeData('validator').removeData('unobtrusiveValidation');
+    $.validator.unobtrusive.parse('form#articleSubmitForm');
+};
+```
+
