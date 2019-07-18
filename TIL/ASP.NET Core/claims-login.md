@@ -3,7 +3,6 @@
 Claims을 이용한 구현 방법이다. Role이나 policy를 이용해서 세부적인 권한까지도 다룰 수 있으며, 특정 시간동안 사용자가 반응이 없다면 로그아웃까지 간단하게 구현할 수 있다.
 
 ```csharp
-#region Authentication
 services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
 services.ConfigureApplicationCookie(options =>
 {
@@ -11,10 +10,12 @@ services.ConfigureApplicationCookie(options =>
     options.LoginPath = "/Account/LogIn";
     options.LogoutPath = "/Account/LogOut";
     options.AccessDeniedPath = "/Home/Index";
-    options.SlidingExpiration = true;
 });
-#endregion
 ```
+```options.ExpireTimeSpan```는 쿠키가 만료될 시간 간격을 지정하는 값이다. 이 만료시간을 쿠키가 생성된 이후가 아닌 사용자의 조작이 없을 때를 기준으로 한다.
+사용자의 조작이 10:30에 있다면 쿠키의 만료시간은 11:30으로 갱신되게 된다. 그리고 사용자의 조작이 없이 1시간이 지나면 만료시간이 지나기 때문에 삭제된다. 결국 쿠키가 없기 때문에 ```options.LogoutPath```에 설정된 경로로 로그아웃을 하게 된다.
+
+```options.LoginPath```를 설정하면 만약 로그인이 필요한 페이지의 경우 자동으로 리디렉션 된다. ```options.AccessDeniedPath```는 엑세스가 거부되었을 때의 경로이다.
 
 컨테이너에 해당 서비스를 추가한다.
 
