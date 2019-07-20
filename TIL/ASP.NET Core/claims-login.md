@@ -147,3 +147,24 @@ public async Task<IActionResult> LogIn(LoginViewModel model, string returnUrl)
 ```
 
 사용자가 A라는 페이지(로그인을 해야만 접근 가능한 페이지라고 가정)에 접속했을 때, 권한이 없기 때문에 로그인 페이지로 돌아갔을 때, 사용자는 로그인하고 다시 A페이지를 찾아서 들어가는 수고를 들일 필요 없이 로그인을 성공하면 A라는 페이지로 리다이렉트 된다.
+
+### .NET과 .NET Core의 Authentication 차이
+
+```csharp
+IAuthenticationManager Authentication
+{
+    get { return HttpContext.GetOwinContext().Authentication; }
+}
+
+Authentication.SignIn(new AuthenticationProperties(), identity);
+```
+
+.NET에서 Authentication은 GetOwinContext라는 확장메서드를 이용해서 Authentication를 사용할 수 있다.
+
+```csharp
+await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
+```
+
+.NET Core에서는 MVC를 시작할 때 설치되는 Microsoft.AspNetCore.App(2.2.0)에 Authentication과 관련된 모든 것들이 설치되어 있다.
+StartUp에서 컨테이너에 Authentication서비스를 추가하면 HttpContext에서 사용할 수 있다.
+
