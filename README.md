@@ -86,6 +86,7 @@
 ### `Jenkins`
 
 - [Jenkins와 MSBuild를 이용한 ASP.NET MVC CI/CD](https://github.com/JHyeok/TIL/blob/master/TIL/Jenkins/aspnet-ci-cd.md)
+- [Jenkins와 Slack 알람 통합](https://github.com/JHyeok/TIL/blob/master/TIL/Jenkins/jenkins-with-slack-notifications.md)
 
 <a name="react">
 
