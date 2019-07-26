@@ -11,6 +11,12 @@ Views - Shared에 _ValidationScriptsPartial가 있어서 필요한 View페이지
 ```
 사용할 수 있다.
 
+```
+jquery.validate.js
+jquery.validate.unobtrusive.js
+```
+_ValidationScriptsPartial가 렌더링하는 javascript 라이브러리들이다.
+
 View페이지의 @model에 사용되는 Viewmodel 또는 model에 유효성 검사 규칙을 지정할 수 있다.
 
 ```csharp
