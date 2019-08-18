@@ -52,6 +52,7 @@
 - [IIS에서 ASP.NET MVC의 쓰레드 및 동기, 비동기와 병렬처리](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20MVC5/async.md)
 - [ASP.NET MVC Paging](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20MVC5/paging.md)
 - [Html.BeginForm()과 Ajax.BeginForm()의 차이](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20MVC5/beginform.md)
+- [Ajax.BeginForm에서 Json으로 유효성 검사](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20MVC5/ajax-beginform-validate.md)
 
 <a name="csharp">
 
