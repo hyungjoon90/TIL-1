@@ -60,7 +60,7 @@ if (!ModelState.IsValid)
 아래는 View페이지 소스 전체이다.
 
 ```csharp
-@model QPlexBrand.Data.ViewModels.RegisterViewModel
+@model Sample.Data.ViewModels.RegisterViewModel
 
 @{
     ViewData["Title"] = "Register";

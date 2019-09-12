@@ -273,7 +273,7 @@ View 단에서는 아래처럼 사용한다.
 
 @inject Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer htmlLocalizer;
 
-@model IList<QPlexBrand.Data.CommonDatabase.Models.AccountLoginLog>
+@model IList<Sample.Data.CommonDatabase.Models.AccountLoginLog>
 
 @{
     ViewData["Title"] = "Home";
