@@ -17,7 +17,7 @@
 - [Kafka](#kafka)
 - [Jenkins](#jenkins)
 - [React](#react)
-- [Vue](#vue)
+- [Vue.js](#vuejs)
 - [Git](#git)
 - [AWS](#aws)
 - [NPM](#npm)
@@ -98,9 +98,9 @@
 - [MobX](https://github.com/JHyeok/TIL/blob/master/TIL/React/MobX.md)
 - [React-app-rewired](https://github.com/JHyeok/TIL/blob/master/TIL/React/React-app-rewired.md)
 
-<a name="vue">
+<a name="vuejs">
 
-### `Vue`
+### `Vue.js`
 
 - [Vue.js에서 무한 스크롤링](https://github.com/JHyeok/TIL/blob/master/TIL/Vue/vue-infinite-loading.md)
 
