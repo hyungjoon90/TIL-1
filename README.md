@@ -102,6 +102,7 @@
 
 ### `Vue.js`
 
+- [Nuxt.js 기본](https://github.com/JHyeok/TIL/blob/master/TIL/Vue.js/nuxt-basic.md)
 - [Vue.js에서 무한 스크롤링](https://github.com/JHyeok/TIL/blob/master/TIL/Vue/vue-infinite-loading.md)
 - [Nuxt.js에서 express와 sequelize](https://github.com/JHyeok/TIL/blob/master/TIL/Vue.js/nuxt-express-sequelize.md)
 
