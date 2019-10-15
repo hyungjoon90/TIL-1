@@ -1,4 +1,4 @@
-# Vue.js에서 무한 스크롤링
+# Nuxt.js에서 무한 스크롤링
 
 설치
 ```
@@ -19,7 +19,7 @@ module.exports = {
   mode: 'universal',
   // ... 중략
   plugins: [
-    {src: '~/plugins/vue-infinite-loading.js', ssr: false}
+    { src: '~/plugins/vue-infinite-loading.js', mode: 'client' }
   ],
   // ... 중략
 }
