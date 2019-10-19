@@ -113,6 +113,7 @@
 - [Git Commit 메세지](https://github.com/JHyeok/TIL/blob/master/TIL/Git/git-commit-message.md)
 - [Push 된 Git Commit Message 수정](https://github.com/JHyeok/TIL/blob/master/TIL/Git/git-commit-message-edit.md)
 - [Git 원격 저장소 URL 변경](https://github.com/JHyeok/TIL/blob/master/TIL/Git/git-remote-url-edit.md)
+- [git 커밋 메세지 취소 및 푸시 취소](https://github.com/JHyeok/TIL/blob/master/TIL/Git/git-commit-push-cancel.md)
 
 <a name="aws">
 
