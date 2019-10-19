@@ -112,6 +112,8 @@
 - [Nuxt.js 기본](https://github.com/JHyeok/TIL/blob/master/TIL/Vue.js/nuxt-basic.md)
 - [Nuxt.js에서 무한 스크롤링](https://github.com/JHyeok/TIL/blob/master/TIL/Vue.js/vue-infinite-loading.md)
 - [Nuxt.js에서 express와 sequelize](https://github.com/JHyeok/TIL/blob/master/TIL/Vue.js/nuxt-express-sequelize.md)
+- [Nuxt.js Global CSS 적용](https://github.com/JHyeok/TIL/blob/master/TIL/Vue.js/nuxt-css.md)
+- [Nuxt.js Components에서 props 사용](https://github.com/JHyeok/TIL/blob/master/TIL/Vue.js/nuxt-components-props.md)
 
 <a name="git">
 
