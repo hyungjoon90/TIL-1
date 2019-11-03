@@ -19,6 +19,7 @@
 - [Node.js](#nodejs)
 - [React](#react)
 - [Vue.js](#vuejs)
+- [Python](#python)
 - [Git](#git)
 - [AWS](#aws)
 - [NPM](#npm)
@@ -114,6 +115,13 @@
 - [Nuxt.js에서 express와 sequelize](https://github.com/JHyeok/TIL/blob/master/TIL/Vue.js/nuxt-express-sequelize.md)
 - [Nuxt.js Global CSS 적용](https://github.com/JHyeok/TIL/blob/master/TIL/Vue.js/nuxt-css.md)
 - [Nuxt.js Components에서 props 사용](https://github.com/JHyeok/TIL/blob/master/TIL/Vue.js/nuxt-components-props.md)
+
+<a name="python">
+
+### `Python`
+
+- [Python with Visual Studio Code or Jupyter Notebook](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-getting-started.md)
+- [Python MySQLdb 설치 관련](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-mysqldb.md)
 
 <a name="git">
 
