@@ -122,6 +122,8 @@
 
 - [Python with Visual Studio Code or Jupyter Notebook](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-getting-started.md)
 - [Python MySQLdb 설치 관련](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-mysqldb.md)
+- [Visual Studio Code에서 Python Black, Pylint 적용](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-black-pylint.md)
+
 
 <div id="git" />
 
