@@ -46,9 +46,7 @@ formatOnSave는 저장시에 자동으로 format을 적용한다는 옵션이다
 
 그러면 python 가상 환경에서 black이 적용되었다.
 
-https://github.com/psf/black
-
-에서 그 외 자세한 옵션들을 확인하실 수 있다.
+https://github.com/psf/black 에서 그 외 자세한 옵션들을 확인하실 수 있다.
 
 먼저 python 가상 환경에서 `pip install pylint`로 Pylint 설치한다.
 
@@ -68,5 +66,11 @@ Visual Studio Code의 linting setting을 확인하니 lintOnSave의 default 값�
 
 저는 가상환경을 만드는데 venv, black과 Pylint를 사용하였지만 각자 원하는 환경을 이용해서 본인에 맞는 또는 팀에 맞는 개발환경을 구축하면 될 것 같다.
 
+---
+#### 참고
+
+https://github.com/psf/black
+
 https://code.visualstudio.com/docs/python/editing
+
 https://code.visualstudio.com/docs/python/linting
