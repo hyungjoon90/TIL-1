@@ -20,6 +20,7 @@
 - [React](#react)
 - [Vue.js](#vuejs)
 - [Python](#python)
+- [Flask](#flask)
 - [Git](#git)
 - [AWS](#aws)
 - [NPM](#npm)
@@ -126,6 +127,13 @@
 - [Python MySQLdb 라이브러리 설치 관련](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-mysqldb.md)
 - [Visual Studio Code에서 Python Black, Pylint 적용](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-black-pylint.md)
 - [학습된 H5 모델 파일을 Python에서 사용하기](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-load-tensorflow-model.md)
+
+<div id="flask" />
+
+### `Flask`
+
+- [Flask에서 global 변수 사용 및 Swagger 결합, 후행슬래시](https://github.com/JHyeok/TIL/blob/master/TIL/Flask/flask-global-swagger-router.md)
+- [Flask에서 TensorFlow 사용](https://github.com/JHyeok/TIL/blob/master/TIL/Flask/flask-tensorflow.md)
 
 <div id="git" />
 
