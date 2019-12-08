@@ -57,6 +57,7 @@
 - [ASP.NET MVC Paging](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20MVC5/paging.md)
 - [Html.BeginForm()과 Ajax.BeginForm()의 차이](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20MVC5/beginform.md)
 - [Ajax.BeginForm에서 Json으로 유효성 검사](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20MVC5/ajax-beginform-validate.md)
+- [.NET CLR에서 메모리 할당](https://github.com/JHyeok/TIL/blob/master/TIL/ASP.NET%20MVC5/memory-allocation.md)
 
 <div id="csharp" />
 
