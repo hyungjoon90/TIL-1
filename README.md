@@ -125,7 +125,7 @@
 - [Python with Visual Studio Code or Jupyter Notebook](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-getting-started.md)
 - [Python MySQLdb 라이브러리 설치 관련](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-mysqldb.md)
 - [Visual Studio Code에서 Python Black, Pylint 적용](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-black-pylint.md)
-
+- [학습된 H5 모델 파일을 Python에서 사용하기](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-load-tensorflow-model.md)
 
 <div id="git" />
 
@@ -168,6 +168,6 @@
 - [올바른 저장 프로시저의 사용법](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/why-use-stored-prodecure.md)
 - [DataBase별 데이터 선언 차이](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/database-varchar.md)
 - [Visual Studio Code 플러그인 Tip](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/vscode-tip.md)
-- [나의 개발 환경(2019.09)](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/development-environment.md)
+- [나의 개발 환경(2019.12)](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/development-environment.md)
 
 
