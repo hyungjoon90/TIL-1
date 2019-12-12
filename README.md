@@ -124,7 +124,7 @@
 ### `Python`
 
 - [Python with Visual Studio Code or Jupyter Notebook](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-getting-started.md)
-- [Python MySQLdb 라이브러리 설치 관련](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-mysqldb.md)
+- [Python MySQLdb](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-mysqldb.md)
 - [Visual Studio Code에서 Python Black, Pylint 적용](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-black-pylint.md)
 - [학습된 H5 모델 파일을 Python에서 사용하기](https://github.com/JHyeok/TIL/blob/master/TIL/Python/python-load-tensorflow-model.md)
 
