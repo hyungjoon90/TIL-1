@@ -134,6 +134,9 @@
 
 - [Flask에서 global 변수 사용 및 Swagger 결합, 후행슬래시](https://github.com/JHyeok/TIL/blob/master/TIL/Flask/flask-global-swagger-router.md)
 - [Flask에서 TensorFlow 사용](https://github.com/JHyeok/TIL/blob/master/TIL/Flask/flask-tensorflow.md)
+- [Flask에 Sentry 적용하기](https://github.com/JHyeok/TIL/blob/master/TIL/Flask/flask-sentry.md)
+
+
 
 <div id="git" />
 
