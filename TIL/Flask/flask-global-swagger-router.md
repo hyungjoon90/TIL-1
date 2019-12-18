@@ -18,13 +18,13 @@ graph = tf.compat.v1.get_default_graph()
 from app import graph
 ```
 
-파이썬의 함수에서 `->` 의미는 함수가 반환함을 나타내는 함수의 형식 주석이다.
+아래 함수의 입출력에서 `->` 의미는 함수의 반환 타입을 선언한다.
 
 ```python
 def create(new_attrs: WidgetInterface) -> Widget:
 ```
 
-Widget 형태로 반환한다는 주석이며, 실제 실행에는 전혀 영향을 미치지 않는다.
+매개변수 new_attrs의 타입을 WidgetInterface로 선언한 것이다. 매개변수 Python3.6부터 정적타입을 쓸 수 있도록 도입되었다.
 
 #### Swagger 결합
 
