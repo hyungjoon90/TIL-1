@@ -21,6 +21,7 @@
 - [Vue.js](#vuejs)
 - [Python](#python)
 - [Flask](#flask)
+- [Design Pattern](#designpattern)
 - [Git](#git)
 - [AWS](#aws)
 - [NPM](#npm)
@@ -137,7 +138,11 @@
 - [Flask에서 TensorFlow 사용](https://github.com/JHyeok/TIL/blob/master/TIL/Flask/flask-tensorflow.md)
 - [Flask에 Sentry 적용하기](https://github.com/JHyeok/TIL/blob/master/TIL/Flask/flask-sentry.md)
 
+<div id="designpattern" />
 
+### `Design Pattern`
+
+- [Facade Pattern 정리](https://github.com/JHyeok/TIL/blob/master/TIL/Design%20Pattern/facade-pattern.md)
 
 <div id="git" />
 
