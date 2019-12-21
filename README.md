@@ -167,7 +167,7 @@
 
 - [클러스터링 인덱스](https://github.com/JHyeok/TIL/blob/master/TIL/Database/clustered-index.md)
 - [Connection Pool](https://github.com/JHyeok/TIL/blob/master/TIL/Database/connection-pool.md)
-- [DataBase별 데이터 선언 차이](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/database-varchar.md)
+- [DataBase별 데이터 선언 차이](https://github.com/JHyeok/TIL/blob/master/TIL/Database/database-varchar.md)
 
 <div id="npm" />
 
