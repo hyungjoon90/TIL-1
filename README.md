@@ -25,7 +25,7 @@
 - [Git](#git)
 - [AWS](#aws)
 - [NPM](#npm)
-- [MySQL](#mysql)
+- [Database](#database)
 - [HTML](#html)
 - [ETC](#etc)
 
@@ -161,11 +161,11 @@
 - [CloudFront가 오래된 객체를 제공하는데 해결 방법](https://github.com/JHyeok/TIL/blob/master/TIL/AWS/cloudfront-s3.md)
 - [CloudFront CORS policy 오리진 오류 해결 방법](https://github.com/JHyeok/TIL/blob/master/TIL/AWS/cloudfront-cors.md)
 
-<div id="mysql" />
+<div id="database" />
 
-### `MySQL`
+### `Database`
 
-- [클러스터링 인덱스](https://github.com/JHyeok/TIL/blob/master/TIL/MySQL/clustered-index.md)
+- [클러스터링 인덱스](https://github.com/JHyeok/TIL/blob/master/TIL/Database/clustered-index.md)
 
 <div id="npm" />
 
