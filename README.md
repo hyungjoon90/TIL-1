@@ -188,6 +188,6 @@
 - [올바른 저장 프로시저의 사용법](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/why-use-stored-prodecure.md)
 - [Visual Studio Code 플러그인 Tip](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/vscode-tip.md)
 - [Slack 사용 간단 정리](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/slack-get-started.md)
-- [나의 개발 환경(2019.12)](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/development-environment.md)
+- [나의 개발 환경](https://github.com/JHyeok/TIL/blob/master/TIL/ETC/development-environment.md)
 
 
