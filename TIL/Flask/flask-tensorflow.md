@@ -2,6 +2,8 @@
 
 Flask에서 tensorflow의 keras를 사용하는데 학습된 모델이 계속 오류가 나는 문제가 발생하였다.
 
+참고로 사용한 tensorflow의 버전은 1.14.0이다. 2.0버전과는 조금 다른 것으로 알고 있다.
+
 ```
 ‘Tensor (“something”) is not an element of this graph.’ Error in Keras using Tensorflow backend on Flask Web Server.
 ```
@@ -9,7 +11,8 @@ Flask에서 tensorflow의 keras를 사용하는데 학습된 모델이 계속 �
 이 오류는 Flask가 처리하는 모든 웹 요청은 모델에 로드된 기본 세션이 아닌 자체 Tensorflow의 세션을 생성하는 새 스레드를 만들기 때문이다.
 
 Flask는 여러 스레드를 사용합니다. tensorflow 모델이 로드되지 않고 동일한 스레드에서 사용되기 때문이다.
-한 가지 해결 방법은 tensorflow가 gloabl 기본 그래프를 사용하도록 강제하는 것입니다.
+
+한 가지 해결 방법은 tensorflow가 gloabl 기본 그래프를 사용하도록 강제하는 것이다.
 
 이 문제를 해결하기 위해서 모델과 함께 로드된 기본 세션을 사용하도록 해야 한다.
 
