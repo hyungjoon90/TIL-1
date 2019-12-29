@@ -7,10 +7,10 @@ void CreateNote()
 }
 ```
 
-이 메소드는 `TextBox`의 `instance`를생성하고, 지역변수 `myNote`가 그것을 참조합니다.\
+이 메서드는 `TextBox`의 `instance`를생성하고, 지역변수 `myNote`가 그것을 참조합니다.\
 지역변수는 스택에 저장되지만, `instance` 자체는 힙에 저장이 됩니다.\
 스택은 `reference-type`의 지역변수와 매개변수에 대한 참조자, 위에서 myNote를 가리키고 저장합니다.\
-`value-type`의 지역변수와 메소드 매개변수등이 스택에 저장됩니다. `(struct, integer, char, DateTime)`
+`value-type`의 지역변수와 메서드 매개변수등이 스택에 저장됩니다. `(struct, integer, char, DateTime)`
 
 힙은 `referenct-type`의 `instance`가 포함하는 데이터, `instance` 내부에 구성된 모든것들을 저장합니다.
 

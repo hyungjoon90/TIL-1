@@ -17,7 +17,7 @@ public class ValidationError
 }
 ```
 
-ModelState를 기반으로 ValidationErrors 목록을 리턴하는 메소드 작성
+ModelState를 기반으로 ValidationErrors 목록을 리턴하는 메서드 작성
 
 ```csharp
 public IEnumerable<ValidationError> GetModelStateErrors(ModelStateDictionary modelState)
@@ -36,7 +36,7 @@ public IEnumerable<ValidationError> GetModelStateErrors(ModelStateDictionary mod
 }
 ```
 
-그런 다음 컨트롤러의 Post 메소드에서 다음을 수행한다.
+그런 다음 컨트롤러의 Post 메서드에서 다음을 수행한다.
 
 ```csharp
 if (!ModelState.IsValid)
